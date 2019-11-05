@@ -29,56 +29,40 @@ body{
     overflow: hidden;
     display: inline-block;
 }
-.container{
+.containerMain {
     margin: 0 auto;
-    max-height: 1270px;
+    max-height: 500px;
     width: 100%;
+    overflow: hidden;
 
 }
+imgProfile   img {
+    height: 200px;
+}
+
+
+
+
+
+
  #pageMain{
-     margin-left: 5px;
-     margin-right: 5px;
+
      height: 200px;
      background-color: white;
 
  }
- .profilePictureContainer{
-     padding: 5px;
-     box-sizing: border-box;
-     border-radius: 100%;
-     display: flex;
 
- }
-.profilePictureContainer img {
+
+
+
+}
+.mainContainerImg{
+    margin: 5px;
     height: 100px;
-}
-
- .mainContainer{
-     height: 200px;
-     background-color: blueviolet;
-     box-sizing: border-box;
-     display: flex;
-     flex-direction: column;
-     justify-content:flex-start;
-     overflow: hidden;
-
-
- }
-.mainHeader{
-    height: 200px;
-
-}
-
-.mainInfoContainer{
-    height: 85px;
-    width: 100px;
+    box-sizing: border-box;
     overflow: hidden;
-    display: flex;
 }
- .mainHeader img{
-     height: 100px;
 
- }
 
 
 
