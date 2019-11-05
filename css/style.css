@@ -1,0 +1,86 @@
+body{
+    background-color: grey;
+}
+#pageHeader {
+    margin-top: 5px;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.headerLogo{
+    height: 50px;
+}
+.headerLogoNav {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.headerLogoNavStyle{
+    height: 100px;
+    box-sizing: border-box;
+}
+.headerLogoNav img{
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    display: inline-block;
+}
+.container{
+    margin: 0 auto;
+    max-height: 1270px;
+    width: 100%;
+
+}
+ #pageMain{
+     margin-left: 5px;
+     margin-right: 5px;
+     height: 200px;
+     background-color: white;
+
+ }
+ .profilePictureContainer{
+     padding: 5px;
+     box-sizing: border-box;
+     border-radius: 100%;
+     display: flex;
+
+ }
+.profilePictureContainer img {
+    height: 100px;
+}
+
+ .mainContainer{
+     height: 200px;
+     background-color: blueviolet;
+     box-sizing: border-box;
+     display: flex;
+     flex-direction: column;
+     justify-content:flex-start;
+     overflow: hidden;
+
+
+ }
+.mainHeader{
+    height: 200px;
+
+}
+
+.mainInfoContainer{
+    height: 85px;
+    width: 100px;
+    overflow: hidden;
+    display: flex;
+}
+ .mainHeader img{
+     height: 100px;
+
+ }
+
+
+
+
+
